@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Remove outline of all elements on focus */
+/* *:focus {
+	outline: 0;
+} */
+
+body {
+	background: white;  /* Set background color to #263238*/
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px ;
+}
+
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    transition: all 2000ms ease-in-out;
+}
+
+ul a .active {
+    color:  #0b0bb7;
+}
+ul a .active:hover {
+    color:  #0b0bb7;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+
+.nav .link ul a:hover {
+    color:  #b70b81;
+    
+}
+ul a .active_2 {
+    color:  #b70b8c;
+}
+.logo h2{
+    color: #0b0bb7;
+}
+
+
+h3 {
+	text-align: center;
+    color: #e8edef;
+}
+
+/* Add styles to 'container' class */
+.container {
+    padding: 50px;
+    margin: 5px 300px 300px 300px;
+	background: #324168;
+	border-radius: 4px;
+    height: 450px;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* styles to show 'focus' of selector */
+/* input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+} */
+
+/* styles to the submit button */
+input[type=submit] {
+	background: #0b0bb7;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+    padding: 20px;
+}
